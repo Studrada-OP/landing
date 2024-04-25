@@ -1,6 +1,6 @@
 # NUOP Student Self-Government landing page
 
-(add some description soon -\_-)
+(add some description soon 0_0)
 
 ## Install
 
