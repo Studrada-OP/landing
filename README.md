@@ -16,7 +16,7 @@ yarn install
 yarn dev
 ```
 
-## Simple build for production
+## Build for production
 
 ```bash
 yarn build
