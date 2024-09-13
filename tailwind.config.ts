@@ -8,9 +8,13 @@ const config: Config = {
     ],
     theme: {
         extend: {
+            fontFamily: {
+                jura: ['Jura', 'sans-serif'],
+                kharkiv: ['KharkivTone', 'sans-serif'],
+            },
             colors: {
-                background: 'var(--background)',
-                foreground: 'var(--foreground)',
+                almostBlack: '#0B0B0B',
+                gray: '#292929',
             },
         },
     },

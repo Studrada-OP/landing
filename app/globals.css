@@ -2,26 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    --background: #ffffff;
-    --foreground: #171717;
+@font-face {
+    font-family: 'Jura';
+    src: url('/fonts/Jura-Bold.ttf') format('truetype');
+    font-weight: bold;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background: #0a0a0a;
-        --foreground: #ededed;
-    }
+@font-face {
+    font-family: 'Jura';
+    src: url('/fonts/Jura-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'KharkivTone';
+    src: url('/fonts/kharkiv_tone.ttf') format('truetype');
+}
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    color: var(--foreground);
-    background: var(--background);
-    font-family: Arial, Helvetica, sans-serif;
+    @apply font-kharkiv text-white bg-black;
 }
-
-@layer utilities {
-    .text-balance {
-        text-wrap: balance;
-    }
+h1 {
+    @apply font-kharkiv text-8xl leading-none tracking-[2px];
+}
+h2 {
+    @apply font-kharkiv text-7xl leading-[1.1] tracking-[1px];
+}
+h3 {
+    @apply font-kharkiv text-6xl leading-[1.1] tracking-[1px];
 }
