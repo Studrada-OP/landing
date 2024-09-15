@@ -19,6 +19,7 @@
     src: url('/fonts/kharkiv_tone.ttf') format('truetype');
 }
 html {
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
